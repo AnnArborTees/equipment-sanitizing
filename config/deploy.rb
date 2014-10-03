@@ -2,7 +2,7 @@
 lock '3.1.0'
 
 set :application, 'equipment'
-set :repo_url, 'git@github.com:annarbortees/equipment.git'
+set :repo_url, 'git@github.com:annarbortees/equipment-sanitizing.git'
 set :rvm_ruby_string, 'ruby-2.1.1'
 
 # Default branch is :master
