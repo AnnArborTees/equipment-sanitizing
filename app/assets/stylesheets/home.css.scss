@@ -1,0 +1,68 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'colors';
+
+.slide {
+  min-height: 800px;
+  padding: 15% 40px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .jumbotron {
+    max-width: 950px;
+    margin: 0 auto;
+    border: solid 10px $white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+
+#landing {
+
+  background: asset_url('slide-1.jpg') repeat-x top center;
+
+  .jumbotron {
+    background-color: #4CB09C;
+    color: $white;
+  }
+}
+
+#the-problem {
+
+  background: asset_url('slide-2.jpg') repeat-x top center;
+
+  .jumbotron {
+    background-color: $dark-orange;
+    color: $white;
+  }
+}
+
+#why-sanitize {
+
+  background: asset_url('slide-3.jpg') repeat-x top center;
+
+  .jumbotron {
+    background-color: #729700;
+    color: $white;
+  }
+}
+
+#pricing-and-services {
+
+  background: asset_url('slide-4.jpg') repeat-x top center;
+}
+
+
+#sanitize-now {
+  margin-bottom: 0;
+
+  background: asset_url('slide-5.jpg') repeat-x top center;
+
+  .jumbotron {
+    background-color: $dark-orange;
+    color: $white;
+  }
+}
