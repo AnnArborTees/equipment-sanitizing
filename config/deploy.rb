@@ -3,7 +3,7 @@
 
 set :application, 'equipment'
 set :repo_url, 'git@github.com:annarbortees/equipment-sanitizing.git'
-set :rvm_ruby_string, 'ruby-2.1.1'
+set :rvm_ruby_version, '2.1.1'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }

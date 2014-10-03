@@ -40,5 +40,5 @@ server 'ubuntu@annarborequipmentsanitizing.com', user: 'ubuntu', roles: %w{web a
 
 
 # set :rvm_type, :user                     # Defaults to: :auto
-# set :rvm_ruby_version, '2.0.0-p247'      # Defaults to: 'default'
+# set :rvm_ruby_version, '2.1.1'      # Defaults to: 'default'
 # set :rvm_custom_path, '~/.myveryownrvm'  # only needed if not detected
