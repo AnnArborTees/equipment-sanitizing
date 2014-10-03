@@ -51,4 +51,10 @@ namespace :deploy do
     end
   end
 
+  desc "Override deploy:cold to NOT run migrations - there's no database"
+  task :cold do
+    update
+    start
+  end
+
 end
